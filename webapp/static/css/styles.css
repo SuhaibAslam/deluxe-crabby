@@ -1,0 +1,42 @@
+/*Colors*/
+body {
+    background-color: #000000;
+}
+.content{
+    background-color: #ffffff;
+    min-height: 100vh;
+    height: 100%;
+}
+
+/*Font*/
+@font-face {
+    font-family: retro;
+    src: url('../fonts/PressStart2P-Regular.ttf');
+}
+
+/*Custom titles*/
+game_title {
+    font-size: 120px;
+}
+game_button {
+    font-size: 20px;
+}
+whack_title {
+    font-size: 120px;
+    color: #000000;
+}
+ttt_title {
+    font-size: 113px;
+    color: #000000;
+}
+
+/* Set title space */
+.banner {
+    background-color: #eeeeee;
+    height: 342px;
+}
+
+/*hr padding*/
+.pad {
+    padding-bottom: 80px;
+}
